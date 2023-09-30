@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-image: url(./fundo-body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.conteinêr{
+    padding: 20px;
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur( 13.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+padding: 20px;
+font-size: 70px;
+cursor: pointer;
+border: none;
+border-radius: 10px;
+transition: opacity 0.5s ease-in-out;
+
+}
+
+.buttons{
+    margin: 30px 0;
+    display: flex;
+    gap: 40px;
+}
+
+button:hover{
+    opacity: 0.7;
+}
+
+#rocke{
+    background-color: #EE0B41;
+}
+
+#paper{
+    background-color: #F6392F;
+}
+
+#scissors{
+   background-color:#028B22 ;
+}
+
+p{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+    color: #000;
+    
+}
+
+.your-score{
+    cursor: pointer;
+    
+}
+
+.your-score span{
+    font-size: 30px;
+    margin-left: 22px;
+    color: #FFA400;
+}
+
+.machine-score{
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.machine-score span{
+    margin-left: 10px;
+    color: #D62000;
+}
+
+@font-face {
+    font-family: 'Nome';
+    src: url("./font/TT\ Rounds\ Neue\ Trial\ Bold.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+    }
+
+    h1{
+        font-family: 'Nome';
+        font-weight: bolder;
+        font-size: 70px;
+        color: #000;  
+      
+    }
